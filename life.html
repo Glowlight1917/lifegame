@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ぐろーらいと人民共和国</title>
+		<meta charset="UTF-8">
+		<style>
+			canvas {border: 1px solid black;}
+		</style>
+	</head>
+	<body>
+
+		<h1>ライフゲーム</h1>
+
+		<h2>遊び方</h2>
+
+		start: シミュレーションを開始する<br>
+		draw<b>(未実装)</b>: ドットを配置する<br>
+		stop: シミュレーションを一時停止する<br>
+		reset: 初期条件を変えてリセット<br><br>
+
+		ライフゲームついて詳しくは<a href="https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B2%E3%83%BC%E3%83%A0">こちら(Wikipedia)</a>へ.<br><br>
+
+		<form name="controller">
+			<input type="button" value="start">
+			<input type="button" value="draw">
+			<input type="button" value="stop">
+			<input type="button" value="reset">
+		</form>
+
+		<canvas id="canvas" width="640" height="480"></canvas>
+		<script src="life.js"></script>
+		
+	</body>
+</html>
